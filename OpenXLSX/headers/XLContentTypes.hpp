@@ -46,10 +46,6 @@ YM      M9  MM    MM MM       MM    MM   d'  `MM.    MM            MM   d'  `MM.
 #ifndef OPENXLSX_XLCONTENTTYPES_HPP
 #define OPENXLSX_XLCONTENTTYPES_HPP
 
-#pragma warning(push)
-#pragma warning(disable : 4251)
-#pragma warning(disable : 4275)
-
 // ===== External Includes ===== //
 #include <memory>
 #include <string>
@@ -246,5 +242,4 @@ namespace OpenXLSX
     };
 }    // namespace OpenXLSX
 
-#pragma warning(pop)
 #endif    // OPENXLSX_XLCONTENTTYPES_HPP

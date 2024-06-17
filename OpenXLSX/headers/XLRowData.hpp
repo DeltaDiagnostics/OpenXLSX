@@ -5,9 +5,6 @@
 #ifndef OPENXLSX_XLROWDATA_HPP
 #define OPENXLSX_XLROWDATA_HPP
 
-#pragma warning(push)
-#pragma warning(disable : 4251)
-#pragma warning(disable : 4275)
 
 // ===== External Includes ===== //
 #include <deque>
@@ -448,5 +445,4 @@ namespace OpenXLSX
 
 }    // namespace OpenXLSX
 
-#pragma warning(pop)
 #endif    // OPENXLSX_XLROWDATA_HPP

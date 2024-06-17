@@ -46,10 +46,6 @@ YM      M9  MM    MM MM       MM    MM   d'  `MM.    MM            MM   d'  `MM.
 #ifndef OPENXLSX_XLEXCEPTION_HPP
 #define OPENXLSX_XLEXCEPTION_HPP
 
-#pragma warning(push)
-#pragma warning(disable : 4251)
-#pragma warning(disable : 4275)
-
 // ===== External Includes ===== //
 #include <stdexcept>
 
@@ -151,5 +147,4 @@ namespace OpenXLSX
 
 }    // namespace OpenXLSX
 
-#pragma warning(pop)
 #endif    // OPENXLSX_XLEXCEPTION_HPP

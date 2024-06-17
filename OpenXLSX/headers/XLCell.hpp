@@ -46,10 +46,6 @@ YM      M9  MM    MM MM       MM    MM   d'  `MM.    MM            MM   d'  `MM.
 #ifndef OPENXLSX_XLCELL_HPP
 #define OPENXLSX_XLCELL_HPP
 
-#pragma warning(push)
-#pragma warning(disable : 4251)
-#pragma warning(disable : 4275)
-
 #include <memory>
 
 // ===== OpenXLSX Includes ===== //
@@ -276,5 +272,4 @@ namespace OpenXLSX
     }
 }    // namespace OpenXLSX
 
-#pragma warning(pop)
 #endif    // OPENXLSX_XLCELL_HPP

@@ -46,9 +46,6 @@ YM      M9  MM    MM MM       MM    MM   d'  `MM.    MM            MM   d'  `MM.
 #ifndef OPENXLSX_XLDATETIME_HPP
 #define OPENXLSX_XLDATETIME_HPP
 
-#pragma warning(push)
-#pragma warning(disable : 4251)
-#pragma warning(disable : 4275)
 
 // ===== External Includes ===== //
 #include <ctime>
